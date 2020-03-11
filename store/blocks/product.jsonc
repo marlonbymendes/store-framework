@@ -1,11 +1,7 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#main",
-      "product-images",
-      "product-price",
-      "product-name",
-      "buy-button"
+      "flex-layout.row#main"
     ]
   },
   "flex-layout.row#main": { 
