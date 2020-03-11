@@ -41,16 +41,16 @@
       "blockClass": "metal"
     }
   },
-  "flex-layout.row":{
-    "children": [
-      "info-card#rethink",
-      "flex-layout.col"
-    ]
-  },
   "flex-layout.col":{
     "children": [
       "image#electronics",
       "image#major-appliance"
+    ]
+  },
+  "flex-layout.row":{
+    "children": [
+      "info-card#rethink",
+      "flex-layout.col"
     ]
   },
  "info-card#rethink": {
