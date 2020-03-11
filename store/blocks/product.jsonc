@@ -56,7 +56,7 @@
     "props": {
       "initialSelection": "empty",
       "showVariationsErrorMessage": "true",
-      "showValueForVariation": "all"
+      "showVariationsLabels": "true"
     }
   },
   "product-brand": {
