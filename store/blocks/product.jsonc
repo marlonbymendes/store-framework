@@ -37,7 +37,9 @@
       "product-identifier.product",
       "product-price",
       "buy-button",
-      "shipping-simulator"
+      "shipping-simulator",
+      "sku-selector",
+      "product-quantity"
     ],
     "props": {
       "verticalAlign": "middle",
