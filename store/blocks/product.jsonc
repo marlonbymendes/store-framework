@@ -6,7 +6,6 @@
       "product-images",
       "product-price",
       "product-name",
-      "product-identifier.product",
       "flex-layout.row#qty-sku",
       "buy-button"
     ]
@@ -35,8 +34,10 @@
   "flex-layout.col#right": {
     "children": [
       "product-name",
+      "product-identifier.product",
       "product-price",
-      "buy-button"
+      "buy-button",
+      "shipping-simulator"
     ],
     "props": {
       "verticalAlign": "middle",
