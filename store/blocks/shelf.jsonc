@@ -9,8 +9,8 @@
                 "maxItems": 8,
                 "itemsPerPage": 4,
                 "minItemsPerPage": 1,
-                "scroll": "BY_PAGE",
                 "arrows": true,
+                "scroll": "BY_PAGE",
                 "titleText": "Top sellers"
             }
         }
