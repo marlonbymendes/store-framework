@@ -6,6 +6,7 @@
      "blocks": [ "search-result-layout.desktop"]},
   "search-result-layout.desktop": {
      "blocks": [
+      "breadcrumb.search",
       "search-title.v2",
       "total-products.v2",
       "order-by.v2",
