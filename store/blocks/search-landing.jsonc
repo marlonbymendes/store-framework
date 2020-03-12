@@ -12,7 +12,7 @@
                 "url": "/small-appliances/coffee-makers"
             },
             "alt": "Coffee Makers Collection",
-            "maxWidth": "100%"
+            "minWidth": "100%"
         }
     },
     "search-result-layout.customQuery": {
