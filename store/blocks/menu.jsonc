@@ -1,77 +1,146 @@
 {
-    "vtex.menu@2.x:menu#categories": {
-        "children": [
-            "menu-item#major-appliances",
-            "menu-item#small-appliances",
-            "menu-item#electronics"
-        ],
-        "props": {
-            "orientation": "horizontal"
-        }
-    },
     "menu-item#major-appliances": {
+        "props": {
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+                "text": "Major Aplliances"
+            }
+        },
         "blocks": [
             "vtex.menu@2.x:submenu#major"
         ]
     },
+
     "menu-item#small-appliances": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 2,
+                "text": "Small Appliances"
+            }
+        },
         "blocks": [
             "vtex.menu@2.x:submenu#small"
         ]
     },
+
     "menu-item#electronics": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 3,
+                "text": "Electronics"
+            }
+        },
         "blocks": [
             "vtex.menu@2.x:submenu#electronics"
         ]
     },
-    "vtex.menu@2.x:submenu#major": {
-        "children": [
-            "vtex.menu@2.x:menu#major"
-        ]
-    },
 
-    "vtex.menu@2.x:menu#major": {
-        "children": [
-            "menu-item#refrigerators",
-            "menu-item#ovens",
-            "menu-item#washers"
-        ],
+    "menu-item#refrigerators": {
         "props": {
-            "orientation": "vertical"
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 4,
+                "text": "Refrigerators"
+            }
         }
     },
 
-    "vtex.menu@2.x:submenu#small": {
-        "children": [
-            "vtex.menu@2.x:menu#small"
-        ]
-    },
-
-    "vtex.menu@2.x:menu#small": {
-        "children": [
-            "menu-item#mixers",
-            "menu-item#toasters",
-            "menu-item#coffee"
-        ],
+    "menu-item#ovens": {
         "props": {
-            "orientation": "vertical"
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 5,
+                "text": "Ranges & Ovens"
+            }
         }
     },
 
-    "vtex.menu@2.x:submenu#electronics": {
-        "children": [
-            "vtex.menu@2.x:menu#electronics"
-        ]
+    "menu-item#washers": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 6,
+                "text": "Washers & Dryers"
+            }
+        }
     },
 
-    "vtex.menu@2.x:menu#electronics": {
-        "children": [
-            "menu-item#cameras",
-            "menu-item#laptops",
-            "menu-item#tvs"
-        ],
+
+    "menu-item#mixers": {
         "props": {
-            "orientation": "vertical"
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 7,
+                "text": "Mixers & Blenders"
+            }
+        }
+    },
+
+
+
+    "menu-item#toasters": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 8,
+                "text": "Toasters & Grills"
+            }
+        }
+    },
+
+    "menu-item#coffee": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 9,
+                "text": "Coffee Makers"
+            }
+        }
+    },
+
+    "menu-item#tvs": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 10,
+                "text": "TVs"
+            }
+        }
+    },
+
+    "menu-item#laptops": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 11,
+                "text": "Laptops"
+            }
+        }
+    },
+
+    "menu-item#cameras": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 12,
+                "text": "Cameras"
+            }
         }
     }
+
+
 }
