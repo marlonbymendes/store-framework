@@ -14,9 +14,9 @@
       "search-fetch-previous",
       "search-content",
       "filter-navigator.v3",
-      "search-fetch-more"]
- },
+      "search-fetch-more"],
   "props": {
     "pagination": "show-more"
   }
+ }
 }
